@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 0 ;
+  background-color: #C5D6FD;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.title {
+  margin-top: 0;
+  height: 80px;
+}
+
+.user-info {
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.skew {
+  transform: skew(-25deg, 0deg);
+  background-color: #FF6aB1;
+  width: 50%
+}
+
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: row;
+}
+
+.left {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.right {
+  width: 33%;
+  margin-left: 45px;
+}
+
+.aside {
+  background-color: #EDF2FE;
+}
+
+.bitches {
+  background-color: #ACDEB7;
+  width: 80%;
+  padding: 5px;
+  box-shadow: 5px 2px 5px grey;
+}
+
+.weird-button {
+  color: #FFFFFF; 
+  font-size: 2em;
+  margin: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.calendar {
+  background-color: #EDF2FE;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 15px 20px 15px;
+  margin-right: 20px;
+}
+
+
+.tile {
+  width: 70px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 8px;
+  box-shadow: 5px 2px 5px grey;
+}
+
+.title-flex {
+  text-align: left;
+  width: 18%;
+}
+
+.right-title {
+  padding-left: 15px;
+}
+
+.right-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.believers, .celebs {
+  background-color: #536266;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 80px;
+}
+
+.believe {
+  font-weight: 700;
+  padding: 5px;
+}
+
+.believers-span, .celebs-span {
+  color: #CACFD0;
+  display: block;
+}
+
+.believers {
+  margin-right: 10px;
+}
+
+.pink-text {
+  color: #EE75AF;
+  margin: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray;
+  font-size: 2em;
+}
+
+.kanye {
+  color: #EE75AF;
+  margin: 15px;
+  padding-bottom: 15px;
+  font-size: 2em;
+}
+
+.label {
+  margin: 0;
+  font-weight: 700;
+}
+
+.pink-number {
+  color: #EE75AF;
+}
+
+.date {
+  margin: 0 0 20px 0;
+}
+
+.label-text {
+  margin: 0 150px 0 0;
+}
+
+.label-text,
+.date {
+  display: inline-block;
+}
+
+.near-image {
+  display: inline-block;
+}
+
+.followers {
+  display: inline-block;
+}
+
+.bottom {
+  padding: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .label-text {
+    margin: 0 80px 0 0;
+  }
+
+  .kanye {
+    font-size: 1.5em;
+  }
+
+  .pink-text {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .label-text {
+    margin: 0 35px 0 0;
+  }
+
+  .believers, .celebs {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .flex-section {
+    display: block
+  }
+
+  .left, .weird-button {
+    width: 100%;
+  }
+
+  .bitches {
+    margin: 0;
+    width: 96%;
+  }
+
+  .right {
+    width: 100%;
+    margin: 0;
+  }
+
+  .followers {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .believer-count {
+    font-size: 1em;
+  }
+
+  .count {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .title-flex {
+    width: 30%;
+  }
+
+  .tile {
+    width: 90px;
+  }
+
+  .plus {
+    padding-left: 5px;
+  }
+
+  .title {
+    height: 50px;
+    font-size: 1em;
+  }
+
+  .believer-count {
+    font-size: .8em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
