@@ -1,5 +1,5 @@
 # Comp-challenge (INSTA GYM)
-## Original comp by Sabrina & Ricardo & Matt
+## Original comp by Sabrina & Ricardo
 ## Made By Ngoc & Om
 
 ![original](https://github.com/nphan24/comp-challenge/blob/master/Desktop.png)
